@@ -20,7 +20,7 @@ public class Library {
     }
     public void showAll(){
         for(String genre :library.keySet()){
-            System.out.println(genre + ":");
+            System.out.println(genre + ": ");
             for(String book : library.get(genre)){
                 System.out.println("  " + book);
             }
