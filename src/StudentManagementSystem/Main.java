@@ -4,48 +4,63 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student("Shahnaz", 23);
-        Student s2 = new Student("Ali", 22);
-        Student s3 = new Student("Sara", 24);
+        try {
 
-        s1.addGrade("Java", 90);
-        s1.addGrade("Math", 85);
-        s1.addGrade("Database", 95);
+            Student s1 = new Student("Shahnaz", 23);
+            Student s2 = new Student("Ali", 22);
+            Student s3 = new Student("Sara", 24);
 
-        s2.addGrade("Java", 80);
-        s2.addGrade("Math", 75);
-        s2.addGrade("Database", 85);
+            s1.addGrade("Java", 90);
+            s1.addGrade("Math", 85);
+            s1.addGrade("Database", 95);
 
-        s3.addGrade("Java", 95);
-        s3.addGrade("Math", 90);
-        s3.addGrade("Database", 100);
+            s2.addGrade("Java", 80);
+            s2.addGrade("Math", 75);
+            s2.addGrade("Database", 85);
 
-        StudentManager manager = new StudentManager();
+            s3.addGrade("Java", 95);
+            s3.addGrade("Math", 90);
+            s3.addGrade("Database", 100);
 
-        manager.addStudent(s1);
-        manager.addStudent(s2);
-        manager.addStudent(s3);
+            StudentManager manager = new StudentManager();
 
-        System.out.println("ALL STUDENTS");
-        manager.showAll();
+            manager.addStudent(s1);
+            manager.addStudent(s2);
+            manager.addStudent(s3);
 
-        System.out.println("FIND STUDENT");
-        Student found = manager.findStudent("Shahnaz");
+            System.out.println("ALL STUDENTS");
+            manager.showAll();
 
-        if (found != null) {
-            found.showGrades();
+            Student found = manager.findStudent("Shah");
+            System.out.println("Found: " + found.name);
+
+            System.out.println(
+                    "Math grade: " + found.getGrade("Math")
+            );
+
+            Student top = manager.getTopStudent();
+            System.out.println("Top student: " + top.name);
+
+            System.out.println(
+                    "Class average: " + manager.getClassAverage()
+            );
+
+        } catch (StudentNotFoundException e) {
+
+            System.out.println("Student error: " + e.getMessage());
+
+        } catch (IllegalArgumentException e) {
+
+            System.out.println("Input error: " + e.getMessage());
+
+        } catch (IllegalStateException e) {
+
+            System.out.println("State error: " + e.getMessage());
+
+        } finally {
+
+            System.out.println("Program finished.");
+
         }
-
-        System.out.println("\nTOP STUDENT");
-        Student top = manager.getTopStudent();
-        System.out.println(top.name);
-        System.out.println(top.getAverage());
-
-        System.out.println("\nCLASS AVERAGE");
-        System.out.println(manager.getClassAverage());
-
-        System.out.println("\nAFTER REMOVING ALI");
-        manager.removeStudent("Ali");
-        manager.showAll();
     }
 }

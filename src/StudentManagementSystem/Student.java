@@ -24,6 +24,11 @@ public class Student {
        grades.put(subject,grade);
    }
    public double getGrade(String subject){
+       if(!grades.containsKey(subject)){
+           throw new IllegalArgumentException(
+                   "subject not found : " + name
+           );
+       }
        return grades.get(subject);
    }
    public double getAverage(){

@@ -15,11 +15,12 @@ public class StudentManager {
     public void removeStudent(String name   ){
         students.removeIf(s -> s.name.equals(name));
     }
-    public Student findStudent(String name){
+    public Student findStudent(String name) throws StudentNotFoundException{
         for(Student s :students){
             if(s.name.equals(name)){
                 return s;
             }
+            throw new StudentNotFoundException("Student not found " + name);
         }
         return null;
     }
@@ -36,6 +37,11 @@ public class StudentManager {
     }
 
     public Student getTopStudent() {
+        //Student top = students.get(0);
+
+        if(students.isEmpty()){
+            throw new IllegalStateException("No student available");
+        }
         Student top = students.get(0);
 
         for (Student s : students) {
