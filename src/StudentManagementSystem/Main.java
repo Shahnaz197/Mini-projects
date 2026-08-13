@@ -31,12 +31,12 @@ public class Main {
             System.out.println("ALL STUDENTS");
             manager.showAll();
 
-            manager.saveToFile("studnetlogboog.txt");
+            manager.saveToFile("studentlogbook.txt");
 
             // ✅ load into new manager
             System.out.println("\nLOADED FROM FILE:");
             StudentManager loadedManager = new StudentManager();
-            loadedManager.loadFromFile("students.txt");
+            loadedManager.loadFromFile("studentlogbook.txt");
             loadedManager.showAll();
 
             Student found = manager.findStudent("Shahnaz");
