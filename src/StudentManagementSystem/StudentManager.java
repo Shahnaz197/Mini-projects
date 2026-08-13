@@ -1,5 +1,9 @@
 package StudentManagementSystem;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class StudentManager {
@@ -61,6 +65,32 @@ public class StudentManager {
         }
 
         return total / students.size();
+    }
+    //saving to the file
+    public void saveToFile(String filename) {
+        try (FileWriter writer = new FileWriter(filename)) {
+            for (Student s : students) {
+                writer.write(s.name + "," + s.getAge() + "," + s.getAverage() + "\n");
+            }
+            System.out.println("saved to " + filename);
+        } catch (IOException e) {
+            System.out.println("error: " + e.getMessage());
+        }
+    }
+
+    public void loadFromFile(String filename) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(","); // split by comma
+                String name = parts[0];
+                int age = Integer.parseInt(parts[1]);
+                students.add(new Student(name, age));
+            }
+            System.out.println("loaded from " + filename);
+        } catch (IOException e) {
+            System.out.println("error: " + e.getMessage());
+        }
     }
 }
 

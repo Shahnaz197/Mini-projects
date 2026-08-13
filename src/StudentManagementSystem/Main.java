@@ -31,7 +31,15 @@ public class Main {
             System.out.println("ALL STUDENTS");
             manager.showAll();
 
-            Student found = manager.findStudent("Shah");
+            manager.saveToFile("studnetlogboog.txt");
+
+            // ✅ load into new manager
+            System.out.println("\nLOADED FROM FILE:");
+            StudentManager loadedManager = new StudentManager();
+            loadedManager.loadFromFile("students.txt");
+            loadedManager.showAll();
+
+            Student found = manager.findStudent("Shahnaz");
             System.out.println("Found: " + found.name);
 
             System.out.println(
