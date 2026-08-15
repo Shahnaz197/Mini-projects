@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69da1417-9e12-4446-973e-e2dd59e8fb86" name="Changes" comment="added student log book to save student and to read from them">
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/ProductManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList/StudentList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayNHashmix/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Pair.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shahnaz197&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shahnaz197/Mini-projects.git&quot;,
+    &quot;accountId&quot;: &quot;52ad1663-2154-425a-9fc2-b37e36009880&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3H4c9Arvc0I0CP9OQrHVTG4aFEB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GradeBook.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Library.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pair.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Printer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.School.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingCart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentList.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/sHAHNAZ/OneDrive/Desktop/nenn/Gym/src/Main.java&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Gym" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Gym" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69da1417-9e12-4446-973e-e2dd59e8fb86" name="Changes" comment="" />
+      <created>1785130632330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785130632330</updated>
+    </task>
+    <task id="LOCAL-00001" summary="created classes to interact to perform different functions">
+      <option name="closed" value="true" />
+      <created>1785939203418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785939203418</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Generics and a hashmap inside the array">
+      <option name="closed" value="true" />
+      <created>1786361759401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786361759401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="management system for the students">
+      <option name="closed" value="true" />
+      <created>1786457274305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1786457274306</updated>
+    </task>
+    <task id="LOCAL-00004" summary="exception handling for the classes">
+      <option name="closed" value="true" />
+      <created>1786464737408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1786464737408</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added student log book to save student and to read from them">
+      <option name="closed" value="true" />
+      <created>1786601227421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1786601227421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created classes to intract to perform different functions" />
+    <MESSAGE value="created classes to interact to perform different functions" />
+    <MESSAGE value="Generics and a hashmap inside the array" />
+    <MESSAGE value="management system for the students" />
+    <MESSAGE value="exception handling for the classes" />
+    <MESSAGE value="added student log book to save student and to read from them" />
+    <option name="LAST_COMMIT_MESSAGE" value="added student log book to save student and to read from them" />
+  </component>
+</project>
